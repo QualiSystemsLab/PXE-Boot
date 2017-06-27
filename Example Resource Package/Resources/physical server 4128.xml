@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ResourceInfo xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="physical server 4128" FolderFullPath="" Address="NA" ModelName="GenericServer" Driver="GenericServerDriver" xmlns="http://schemas.qualisystems.com/ResourceManagement/ResourceSchema.xsd">
+  <Attributes>
+    <Attribute Name="OS Image" Value="CentOS6" />
+    <Attribute Name="Vendor" Value="" />
+    <Attribute Name="Location" Value="" />
+    <Attribute Name="Model" Value="" />
+    <Attribute Name="IPMI IP" Value="" />
+    <Attribute Name="IPMI User" Value="" />
+    <Attribute Name="IPMI Password" Value="3M3u7nkDzxWb0aJ/IZYeWw==" />
+    <Attribute Name="iDRAC IP" Value="" />
+    <Attribute Name="iDRAC User" Value="" />
+    <Attribute Name="iDRAC Password" Value="3M3u7nkDzxWb0aJ/IZYeWw==" />
+    <Attribute Name="SMASH CLP IP" Value="" />
+    <Attribute Name="SMASH CLP User" Value="" />
+    <Attribute Name="SMASH CLP Password" Value="3M3u7nkDzxWb0aJ/IZYeWw==" />
+  </Attributes>
+  <ChildResources>
+    <ResourceInfo Name="NIC 1" Address="0" ModelName="Resource Port">
+      <Attributes>
+        <Attribute Name="MAC Address" Value="00:50:56:be:6b:e8" />
+        <Attribute Name="IPv4 Address" Value="" />
+        <Attribute Name="IPv6 Address" Value="" />
+        <Attribute Name="Port Speed" Value="" />
+      </Attributes>
+      <ChildResources />
+      <Connections />
+    </ResourceInfo>
+  </ChildResources>
+  <Connections />
+</ResourceInfo>

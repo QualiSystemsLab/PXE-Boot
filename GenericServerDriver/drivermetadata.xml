@@ -1,0 +1,44 @@
+<Driver Description="Describe the purpose of your CloudShell shell" MainClass="driver.GenericServerDriver" Name="GenericServerDriver" Version="1.0.0">
+    <Layout>
+        <Category Name="App Management">
+            <!--<Command Description="Just your regular example command" DisplayName="Refresh MAC addresses" Name="refresh_mac" />-->
+            <Command Description="Configure the PXE server to install the specified OS on this deployed server when it powers on. The first NIC must be physically connected to same network as the PXE server, and the MAC Address attribute on the first NIC subresource must be up to date. At least one PXE server resource must be defined in this domain." DisplayName="Configure PXE Boot"
+                     Name="configure_pxe_boot" >
+                <Parameters>
+                    <Parameter Name="os_name"
+                               Type="Lookup"
+                               Mandatory = "True"
+                               AllowedValues="Windows7,CentOS6,CentOS7,CentOS7min,ESXi"
+                               DefaultValue="CentOS6"
+                               DisplayName="OS name"
+                               Description="Name of the OS to install via PXE"/>
+                    <Parameter Name="pxe_server_resource_name"
+                               Type="String"
+                               Mandatory = "False"
+                               DefaultValue=""
+                               DisplayName="PXE Server resource name"
+                               Description="Name of the PXE Server resource to configure. Leave blank if there is only a single PXE server resource in this domain."/>
+                </Parameters>
+            </Command>
+        </Category>
+        <Category Name="Hidden Commands">
+            <Command Name="health_check"  Tags="" Description="Checks if the device is up and connectable"/>
+            <Command Name="orchestration_save" >
+                <Parameters>
+                    <Parameter Name="mode" Type="Lookup" Mandatory = "True" AllowedValues="shallow,deep"  DefaultValue="shallow"
+                               Description="Snapshot save mode, can be one of two values 'shallow' (default) or 'deep'"/>
+                    <Parameter Name="custom_params" Type="String" Mandatory = "False"  DefaultValue=""
+                               Description=" Set of custom parameters for the save operation"/>
+
+                </Parameters>
+            </Command>
+            <Command Name="orchestration_restore" >
+                <Parameters>
+                    <Parameter Name="saved_details" Type="String" Mandatory = "True" DefaultValue=""
+                               Description="A JSON string representing the state to restore including saved artifacts and info"/>
+                </Parameters>
+            </Command>
+        </Category>
+
+    </Layout>
+</Driver>

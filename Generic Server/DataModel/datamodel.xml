@@ -1,0 +1,382 @@
+﻿<DataModelInfo xmlns="http://schemas.qualisystems.com/ResourceManagement/DataModelSchema.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Attributes>
+    <AttributeInfo DefaultValue="" IsReadOnly="false" Name="User" Type="String">
+      <Rules>
+        <Rule Name="Configuration" />
+      </Rules>
+    </AttributeInfo>
+    <AttributeInfo DefaultValue="3M3u7nkDzxWb0aJ/IZYeWw==" IsReadOnly="false" Name="Password" Type="Password">
+      <Rules>
+        <Rule Name="Configuration" />
+      </Rules>
+    </AttributeInfo>
+    
+    <AttributeInfo DefaultValue="" IsReadOnly="false" Name="IPMI User" Type="String">
+      <Rules>
+        <Rule Name="Configuration" />
+      </Rules>
+    </AttributeInfo>
+    <AttributeInfo DefaultValue="3M3u7nkDzxWb0aJ/IZYeWw==" IsReadOnly="false" Name="IPMI Password" Type="Password">
+      <Rules>
+        <Rule Name="Configuration" />
+      </Rules>
+    </AttributeInfo>
+    <AttributeInfo DefaultValue="" IsReadOnly="false" Name="IPMI IP" Type="String">
+      <Rules>
+        <Rule Name="Configuration" />
+      </Rules>
+    </AttributeInfo>
+
+    <AttributeInfo DefaultValue="" IsReadOnly="false" Name="iDRAC IP" Type="String">
+      <Rules>
+        <Rule Name="Configuration" />
+      </Rules>
+    </AttributeInfo>
+    <AttributeInfo DefaultValue="" IsReadOnly="false" Name="iDRAC User" Type="String">
+      <Rules>
+        <Rule Name="Configuration" />
+      </Rules>
+    </AttributeInfo>
+    <AttributeInfo DefaultValue="3M3u7nkDzxWb0aJ/IZYeWw==" IsReadOnly="false" Name="iDRAC Password" Type="Password">
+      <Rules>
+        <Rule Name="Configuration" />
+      </Rules>
+    </AttributeInfo>
+    
+    <AttributeInfo DefaultValue="" IsReadOnly="false" Name="SMASH CLP IP" Type="String">
+      <Rules>
+        <Rule Name="Configuration" />
+      </Rules>
+    </AttributeInfo>
+    <AttributeInfo DefaultValue="" IsReadOnly="false" Name="SMASH CLP User" Type="String">
+      <Rules>
+        <Rule Name="Configuration" />
+      </Rules>
+    </AttributeInfo>
+    <AttributeInfo DefaultValue="3M3u7nkDzxWb0aJ/IZYeWw==" IsReadOnly="false" Name="SMASH CLP Password" Type="Password">
+      <Rules>
+        <Rule Name="Configuration" />
+      </Rules>
+    </AttributeInfo>
+    
+    
+    <AttributeInfo DefaultValue="3M3u7nkDzxWb0aJ/IZYeWw==" Description="The Enable password is required by some CLI protocols such as Telnet" IsReadOnly="false" Name="Enable Password" Type="Password">
+      <Rules>
+        <Rule Name="Configuration" />
+      </Rules>
+    </AttributeInfo>
+    <AttributeInfo DefaultValue="False" Description="Used by the power management orchestration, if enabled, to determine whether to automatically manage the device power status" IsReadOnly="false" Name="Power Management" Type="Boolean">
+      <Rules>
+        <Rule Name="Configuration" />
+      </Rules>
+    </AttributeInfo>
+    <AttributeInfo DefaultValue="" Description="A unique identifier for the device, if exists in the device terminal/os  " IsReadOnly="true" Name="System Name" Type="String">
+      <Rules Override="false">
+        <Rule Name="Setting" />
+      </Rules>
+    </AttributeInfo>
+    <AttributeInfo DefaultValue="" IsReadOnly="true" Name="Port Description" Type="String">
+      <Rules Override="false">
+        <Rule Name="Setting" />
+      </Rules>
+    </AttributeInfo>
+    <AttributeInfo DefaultValue="" Description="The port speed (e.g 10Gb/s, 40Gb/s, 100Mb/s)" IsReadOnly="true" Name="Port Speed" Type="String">
+      <Rules Override="false">
+        <Rule Name="Setting" />
+        <Rule Name="Available For Abstract Resources" />
+      </Rules>
+    </AttributeInfo>
+    <AttributeInfo DefaultValue="" IsReadOnly="true" Name="Version" Type="String">
+      <Rules Override="false">
+        <Rule Name="Setting" />
+        <Rule Name="Available For Abstract Resources" />
+      </Rules>
+    </AttributeInfo>
+    <AttributeInfo DefaultValue="" IsReadOnly="true" Name="Vendor" Type="String">
+      <Rules Override="false">
+        <Rule Name="Setting" />
+        <Rule Name="Displayed In Search Filter" />
+        <Rule Name="Available For Abstract Resources" />
+      </Rules>
+    </AttributeInfo>
+    <AttributeInfo DefaultValue="" Description="The device physical location identifier. For example: Lab1/Floor2/Row5/Slot4" IsReadOnly="true" Name="Location" Type="String">
+      <Rules Override="false">
+        <Rule Name="Setting" />
+        <Rule Name="Available For Abstract Resources" />
+      </Rules>
+    </AttributeInfo>
+    <AttributeInfo DefaultValue="" Description="Used by the save/restore orchestration to determine where backups should be saved" IsReadOnly="false" Name="Backup Location" Type="String">
+      <Rules>
+        <Rule Name="Configuration" />
+      </Rules>
+    </AttributeInfo>
+    <AttributeInfo DefaultValue="" Description="The device model. This information is typically used for abstract resource filtering." IsReadOnly="true" Name="Model" Type="String">
+      <Rules Override="false">
+        <Rule Name="Setting" />
+        <Rule Name="Displayed In Search Filter" />
+        <Rule Name="Available For Abstract Resources" />
+      </Rules>
+    </AttributeInfo>
+    <AttributeInfo DefaultValue="" IsReadOnly="false" Name="SNMP Read Community" Type="String">
+      <Rules>
+        <Rule Name="Configuration" />
+      </Rules>
+    </AttributeInfo>
+    <AttributeInfo DefaultValue="" IsReadOnly="false" Name="SNMP Write Community" Type="String">
+      <Rules>
+        <Rule Name="Configuration" />
+      </Rules>
+    </AttributeInfo>
+    <AttributeInfo DefaultValue="" IsReadOnly="false" Name="SNMP V3 Password" Type="String">
+      <Rules>
+        <Rule Name="Configuration" />
+      </Rules>
+    </AttributeInfo>
+    <AttributeInfo DefaultValue="" IsReadOnly="false" Name="SNMP V3 Private Key" Type="String">
+      <Rules>
+        <Rule Name="Configuration" />
+      </Rules>
+    </AttributeInfo>
+    <AttributeInfo DefaultValue="" IsReadOnly="false" Name="SNMP V3 User" Type="String">
+      <Rules>
+        <Rule Name="Configuration" />
+      </Rules>
+    </AttributeInfo>
+    <AttributeInfo DefaultValue="" IsReadOnly="false" Name="SNMP Version" Type="String">
+      <Rules>
+        <Rule Name="Configuration" />
+      </Rules>
+    </AttributeInfo>
+    <AttributeInfo DefaultValue="1" IsReadOnly="false" Name="Sessions Concurrency Limit" Type="Numeric">
+      <Rules>
+        <Rule Name="Configuration" />
+      </Rules>
+    </AttributeInfo>
+    <AttributeInfo DefaultValue="" IsReadOnly="false" Name="Console Server IP Address" Type="String">
+      <Rules>
+        <Rule Name="Configuration" />
+      </Rules>
+    </AttributeInfo>
+    <AttributeInfo DefaultValue="" IsReadOnly="false" Name="Console User" Type="String">
+      <Rules>
+        <Rule Name="Configuration" />
+      </Rules>
+    </AttributeInfo>
+    <AttributeInfo DefaultValue="3M3u7nkDzxWb0aJ/IZYeWw==" IsReadOnly="false" Name="Console Password" Type="Password">
+      <Rules>
+        <Rule Name="Configuration" />
+      </Rules>
+    </AttributeInfo>
+    <AttributeInfo DefaultValue="0" IsReadOnly="false" Name="Console Port" Type="Numeric">
+      <Rules>
+        <Rule Name="Configuration" />
+      </Rules>
+    </AttributeInfo>
+    <AttributeInfo DefaultValue="Auto" IsCommand="false" IsReadOnly="false" Name="CLI Connection Type" Type="Lookup" xsi:type="LookupAttributeDetails">
+      <Rules>
+        <Rule Name="Configuration" />
+      </Rules>
+      <LookupValues>
+        <LookupValue NumericValue="0" StringValue="Auto" />
+        <LookupValue NumericValue="1" StringValue="Console" />
+        <LookupValue NumericValue="2" StringValue="SSH" />
+        <LookupValue NumericValue="3" StringValue="Telnet" />
+        <LookupValue NumericValue="4" StringValue="TCP" />
+      </LookupValues>
+    </AttributeInfo>
+    <AttributeInfo DefaultValue="CentOS6" IsCommand="false" IsReadOnly="false" Name="OS Image" Type="Lookup" xsi:type="LookupAttributeDetails">
+      <Rules>
+        <Rule Name="Configuration" />
+      </Rules>
+      <LookupValues>
+        <LookupValue NumericValue="0" StringValue="Windows7" />
+        <LookupValue NumericValue="1" StringValue="CentOS6" />
+        <LookupValue NumericValue="2" StringValue="CentOS7" />
+        <LookupValue NumericValue="3" StringValue="CentOS7min" />
+        <LookupValue NumericValue="4" StringValue="ESXi" />
+      </LookupValues>
+    </AttributeInfo>
+    <AttributeInfo DefaultValue="" IsReadOnly="true" Name="Serial Number" Type="String">
+      <Rules Override="false">
+        <Rule Name="Setting" />
+        <Rule Name="Available For Abstract Resources" />
+      </Rules>
+    </AttributeInfo>
+    <AttributeInfo DefaultValue="" IsReadOnly="false" Name="MAC Address" Type="String">
+      <Rules Override="false">
+        <Rule Name="Setting" />
+        <Rule Name="Available For Abstract Resources" />
+      </Rules>
+    </AttributeInfo>
+    <AttributeInfo DefaultValue="" IsReadOnly="false" Name="IPv4 Address" Type="String">
+      <Rules Override="false">
+        <Rule Name="Setting" />
+        <Rule Name="Available For Abstract Resources" />
+      </Rules>
+    </AttributeInfo>
+    <AttributeInfo DefaultValue="" IsReadOnly="false" Name="IPv6 Address" Type="String">
+      <Rules Override="false">
+        <Rule Name="Setting" />
+        <Rule Name="Available For Abstract Resources" />
+      </Rules>
+    </AttributeInfo>
+  </Attributes>
+  <ResourceFamilies>
+    <ResourceFamily Description="" IsConnectable="false" IsLockedByDefault="true" IsSearchable="true" Name="Server" ResourceType="Resource">
+      <AttachedAttributes>
+      </AttachedAttributes>
+      <AttributeValues>
+      </AttributeValues>
+      <Models>
+        <ResourceModel Description="" Name="PXEServer" SupportsConcurrentCommands="false">
+          <AttachedAttributes>
+            <AttachedAttribute IsLocal="true" IsOverridable="true" Name="User">
+              <AllowedValues />
+            </AttachedAttribute>
+            <AttachedAttribute IsLocal="true" IsOverridable="true" Name="Password">
+              <AllowedValues />
+            </AttachedAttribute>
+          </AttachedAttributes>
+          <AttributeValues>
+            <AttributeValue Name="User" Value="" />
+            <AttributeValue Name="Password" Value="" />
+          </AttributeValues>
+          <ParentModels />
+          <Drivers>
+          </Drivers>
+          <Scripts />
+        </ResourceModel>
+
+      <ResourceModel Description="" Name="GenericServer" SupportsConcurrentCommands="false">
+            <AttachedAttributes>
+                <AttachedAttribute IsLocal="true" IsOverridable="true" Name="OS Image">
+                    <AllowedValues />
+                </AttachedAttribute>
+                <AttachedAttribute IsLocal="true" IsOverridable="true" Name="IPMI IP">
+                    <AllowedValues />
+                </AttachedAttribute>
+                <AttachedAttribute IsLocal="true" IsOverridable="true" Name="IPMI User">
+                    <AllowedValues />
+                </AttachedAttribute>
+                <AttachedAttribute IsLocal="true" IsOverridable="true" Name="IPMI Password">
+                    <AllowedValues />
+                </AttachedAttribute>
+                <AttachedAttribute IsLocal="true" IsOverridable="true" Name="iDRAC IP">
+                    <AllowedValues />
+                </AttachedAttribute>
+                <AttachedAttribute IsLocal="true" IsOverridable="true" Name="iDRAC User">
+                    <AllowedValues />
+                </AttachedAttribute>
+                <AttachedAttribute IsLocal="true" IsOverridable="true" Name="iDRAC Password">
+                    <AllowedValues />
+                </AttachedAttribute>
+                <AttachedAttribute IsLocal="true" IsOverridable="true" Name="SMASH CLP IP">
+                    <AllowedValues />
+                </AttachedAttribute>
+                <AttachedAttribute IsLocal="true" IsOverridable="true" Name="SMASH CLP User">
+                    <AllowedValues />
+                </AttachedAttribute>
+                <AttachedAttribute IsLocal="true" IsOverridable="true" Name="SMASH CLP Password">
+                    <AllowedValues />
+                </AttachedAttribute>
+            </AttachedAttributes>
+            <AttributeValues>
+                <AttributeValue Name="OS Image" Value="CentOS6" />
+
+                <AttributeValue Name="IPMI IP" Value="" />
+                <AttributeValue Name="IPMI User" Value="" />
+                <AttributeValue Name="IPMI Password" Value="" />
+
+                <AttributeValue Name="iDRAC IP" Value="" />
+                <AttributeValue Name="iDRAC User" Value="" />
+                <AttributeValue Name="iDRAC Password" Value="" />
+
+                <AttributeValue Name="SMASH CLP IP" Value="" />
+                <AttributeValue Name="SMASH CLP User" Value="" />
+                <AttributeValue Name="SMASH CLP Password" Value="" />
+            </AttributeValues>
+            <ParentModels />
+            <Drivers>
+                <DriverName>GenericServerDriver</DriverName>
+            </Drivers>
+            <Scripts />
+        </ResourceModel>
+
+    </Models>
+      <Categories />
+    </ResourceFamily>
+    <ResourceFamily IsConnectable="true" IsLockedByDefault="true" IsSearchable="true" Name="Port">
+      <AttachedAttributes />
+      <AttributeValues />
+      <Models>
+        <ResourceModel Description="" Name="Resource Port" SupportsConcurrentCommands="false">
+          <AttachedAttributes>
+            <AttachedAttribute IsLocal="true" IsOverridable="true" Name="MAC Address">
+              <AllowedValues />
+            </AttachedAttribute>
+            <AttachedAttribute IsLocal="true" IsOverridable="true" Name="IPv4 Address">
+              <AllowedValues />
+            </AttachedAttribute>
+            <AttachedAttribute IsLocal="true" IsOverridable="true" Name="IPv6 Address">
+              <AllowedValues />
+            </AttachedAttribute>
+            <AttachedAttribute IsLocal="true" IsOverridable="true" Name="Port Speed">
+              <AllowedValues />
+            </AttachedAttribute>
+
+          </AttachedAttributes>
+          <AttributeValues>
+            <AttributeValue Name="MAC Address" Value="" />
+            <AttributeValue Name="IPv4 Address" Value="" />
+            <AttributeValue Name="IPv6 Address" Value="" />
+            <AttributeValue Name="Port Speed" Value="" />
+
+          </AttributeValues>
+          <ParentModels>
+            <ParentModelName>GenericServer</ParentModelName>
+          </ParentModels>
+          <Drivers />
+          <Scripts />
+        </ResourceModel>
+      </Models>
+      <Categories />
+    </ResourceFamily>
+    <ResourceFamily Description="" IsConnectable="true" IsLockedByDefault="true" IsSearchable="true" Name="Power Port">
+      <AttachedAttributes />
+      <AttributeValues />
+      <Models>
+        <ResourceModel Description="" Name="Generic Power Port" SupportsConcurrentCommands="false">
+          <AttachedAttributes>
+            <AttachedAttribute IsLocal="true" IsOverridable="true" Name="Model">
+              <AllowedValues />
+            </AttachedAttribute>
+            <AttachedAttribute IsLocal="true" IsOverridable="true" Name="Serial Number">
+              <AllowedValues />
+            </AttachedAttribute>
+            <AttachedAttribute IsLocal="true" IsOverridable="true" Name="Version">
+              <AllowedValues />
+            </AttachedAttribute>
+            <AttachedAttribute IsLocal="true" IsOverridable="true" Name="Port Description">
+              <AllowedValues />
+            </AttachedAttribute>
+          </AttachedAttributes>
+          <AttributeValues>
+            <AttributeValue Name="Model" Value="" />
+            <AttributeValue Name="Serial Number" Value="" />
+            <AttributeValue Name="Version" Value="" />
+            <AttributeValue Name="Port Description" Value="" />
+          </AttributeValues>
+          <ParentModels>
+            <ParentModelName>GenericServer</ParentModelName>
+          </ParentModels>
+          <Drivers />
+          <Scripts />
+        </ResourceModel>
+      </Models>
+      <Categories />
+    </ResourceFamily>
+  </ResourceFamilies>
+  <DriverDescriptors>
+    <DriverDescriptor DriverType="PythonDriver" Name="GenericServerDriver" />
+  </DriverDescriptors>
+</DataModelInfo>

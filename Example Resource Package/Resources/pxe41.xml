@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ResourceInfo xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="pxe41" FolderFullPath="" Address="192.168.41.162" ModelName="PXEServer" xmlns="http://schemas.qualisystems.com/ResourceManagement/ResourceSchema.xsd">
+  <Attributes>
+    <Attribute Name="User" Value="root" />
+    <Attribute Name="Password" Value="m3OR3f5T65msqIpbNwQ2ZA==" />
+  </Attributes>
+  <ChildResources />
+  <Connections />
+</ResourceInfo>
